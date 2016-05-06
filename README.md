@@ -5,4 +5,4 @@ new thing web site,classmate's thesis
 在main.js下改改配置地址
 
 安装依赖模块
-```npm install
+## npm install
