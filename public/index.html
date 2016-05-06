@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+	<title>new thing</title>
+	<meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1,user-scalable=0">
+    <meta name="format-detection" content="telephone=no">
+    <meta http-equiv="Content-Language" content="zh-cn">
+    <meta http-equiv="Access-Control-Allow-Origin" content="*">
+	<link rel="stylesheet" type="text/css" href="./css/bootstrap.css">
+	<link rel="stylesheet" type="text/css" href="./css/index.css">
+<style type="text/css">
+
+
+.center-daily img,.hot-pic img{padding:0;cursor: pointer;}
+.hot-pic  .hot-pic-th{margin:0;padding: 0;overflow: hidden;}
+.hot-pic-th a{position: relative;}
+.description,.description-b{position: absolute;bottom: -1000px;left: 0;width:100%;height: 50px;background: rgba(200,200,200,0.6);line-height: 50px;text-align: center;color: #fff;font-size: 20px;transition: 0.5s;}
+.hot-pic-th a:hover .description{bottom:-88px;}
+.hot-pic-th a:hover .description-b{bottom:-173px;}
+</style>
+</head>
+<body>
+<div class="container header">
+	<div class="row">
+		<div class="col-sm-4"><img class="img-thumbnail"  style="border:0;" src="./img/logo.jpg"></img></div>	
+		<div class="col-sm-1 header-block" ></div>	
+		<!-- <div class="col-sm-2 pull-right header-right"><img class="img-thumbnail pull-right dropmenu" src="./img/dropmenu.png" style="border:0;"></img><p class="login-style pull-right">login</p></div> -->
+
+		<div class="col-sm-2 pull-right dropdown">
+			<span style="line-height: 37px;cursor: pointer;" class="j_login j_h_name">login</span>
+		   <span type="button" class="btn dropdown-toggle pull-right btn-lg" id="dropdownMenu1" 
+		      data-toggle="dropdown">
+		      <span class="glyphicon glyphicon-th-list"></span>
+		   </span>
+		   	<ul class="dropdown-menu my-menu" role="menu" aria-labelledby="dropdownMenu1 " style="min-width: 120px;">
+		      <li role="presentation">
+		         <a role="menuitem" tabindex="-1" href="./homepage.html">我的主页<span style="margin-left: 10px;" class="glyphicon glyphicon-user"></span></a>
+		      </li>
+		      <li role="presentation">
+		         <a role="menuitem" tabindex="-1" href="./message.html">我的消息<span style="margin-left: 10px;" class="glyphicon glyphicon-bell"></span></a></a>
+		      </li>
+		      <li role="presentation">
+		         <a role="menuitem" tabindex="-1" href="./attend.html">我的参与<span style="margin-left: 10px;" class="glyphicon glyphicon-heart"></span></a></a>
+		      </li>
+		      <li role="presentation">
+		         <a role="menuitem" tabindex="-1" href="./launch.html">我的发起<span style="margin-left: 10px;" class="glyphicon glyphicon-bookmark"></span></a></a>
+		      </li>
+		      <li role="presentation">
+		         <a role="menuitem" tabindex="-1" href="#">退出登录<span style="margin-left: 10px;" class="glyphicon glyphicon-log-out"></span></a></a>
+		      </li>
+		   </ul>
+		</div>
+	</div>
+</div>
+<div class="container nav">
+	<ul class="list-inline nav-ul text-center">
+		<li class="li-bottom-line"><a href="./index.html">首页</a></li>
+		<li><a href="./around.html">周边</a></li>
+		<li><a href="./found.html">发现</a></li>
+		<li><a href="./community.html">社区</a></li>
+		<li><a href="./about.html">关于</a></li>
+	</ul>
+</div>
+
+<div class="container" style="padding: 0;">
+	<div id="myCarousel" class="carousel slide" data-ride="carousel" data-interval="2000">
+	   <!-- 轮播（Carousel）指标 -->
+	   <ol class="carousel-indicators">
+	      <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+	      <li data-target="#myCarousel" data-slide-to="1"></li>
+	      <li data-target="#myCarousel" data-slide-to="2"></li>
+	      <li data-target="#myCarousel" data-slide-to="3"></li>
+	   </ol>   
+	   <!-- 轮播（Carousel）项目 -->
+	   <div class="carousel-inner">
+	      <div class="item active">
+	         <a href="activity_detail.html?aid=30"><img src="./img/carousel/1.jpg" alt="First slide" width="100%"></a>
+	      </div>
+	      <div class="item">
+	         <a href="activity_detail.html?aid=35"><img src="./img/carousel/2.jpg" alt="Second slide" width="100%"></a>
+	      </div>
+	      <div class="item">
+	         <a href="activity_detail.html?aid=34"><img src="./img/carousel/3.jpg" alt="Third slide" width="100%"></a>
+	      </div>
+	      <div class="item">
+	         <a href="activity_detail.html?aid=33"><img src="./img/carousel/4.jpg" alt="Third slide" width="100%"></a>
+	      </div>
+	   </div>
+	</div>
+</div>
+
+<div class="container center-daily">
+	<div class="row">
+			<a href="found.html?type=1"><img class="img-rounded col-sm-3" src="./img/daily/Y.jpg"></a>
+			<a href="found.html?type=2"><img class="img-rounded col-sm-3" src="./img/daily/S.jpg"></a>
+			<a href="found.html?type=3"><img class="img-rounded col-sm-3" src="./img/daily/Z.jpg"></a>
+			<a href="found.html?type=4"><img class="img-rounded col-sm-3" src="./img/daily/X.jpg"></a>
+	</div>
+</div>
+
+<div class="container hot-pic">
+	<div class="row">
+		<a href="activity_detail.html?aid=11"><img src="./img/hotpic/hotpic.jpg" width="100%"></a>
+	</div>
+	<div class="row">
+		<div class="col-sm-3 hot-pic-th">
+			<a href="activity_detail.html?aid=37"><img src="./img/hotpic/2.jpg"><p class="description">五一登顶武功山</p></a>
+			<a href="activity_detail.html?aid=38"><img src="./img/hotpic/4.jpg"><p class="description">香港茶室——陆羽茶室</p></a>
+			
+		</div>
+		<div class="col-sm-6 hot-pic-th">
+			<a href="activity_detail.html?aid=36"><img src="./img/hotpic/1.jpg"><p class="description-b">2016广东大学生时装周</p></a>
+		</div>
+		<div class="col-sm-3 hot-pic-th">
+			<a href="activity_detail.html?aid=39"><img src="./img/hotpic/3.jpg"><p class="description">厦门晓风书屋</p></a>
+			<a href="activity_detail.html?aid=40"><img src="./img/hotpic/5.jpg"><p class="description">夜爬白云山</p></a>
+			
+		</div>
+	</div>
+</div>
+
+<div class="container aboutus">
+	<div class="row">
+		<img src="./img/aboutus/us.jpg" width="100%">
+	</div>
+	<div class="row">
+		<img src="./img/aboutus/detail.jpg" width="100%">
+	</div>
+</div>
+
+<div class="container footer">
+	<div class="row">
+		<img src="./img/footer.jpg" width="100%">
+	</div>
+</div>
+
+<!-- 登录模态框（Modal） -->
+<div class="modal fade" id="modal_login" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content" style="width:300px;height: 280px; margin:200px auto;">
+      <div class="modal-header">
+        <img src="./img/logo.jpg" class="center-block">
+		<span class="modal_close"  data-dismiss="modal" aria-label="Close" style="position: absolute;right: 10px;top:10px;cursor: pointer;font-size: 20px;">×</span>
+      </div>
+      <div class="modal-body">
+        	<div class="form-group">
+			  <div class="input-group">
+			  <span class="input-group-addon glyphicon glyphicon-user"></span>
+			    <input type="text" class="form-control j_l_phone" placeholder="电话号码">
+			  </div>
+			</div>
+			<div class="form-group">
+			  <div class="input-group">
+			  <span class="input-group-addon glyphicon glyphicon-lock"></span>
+			    <input type="password" class="form-control j_l_password" placeholder="密码">
+			  </div>
+			</div>
+			<button type="button" class="btn btn-warning btn-lg btn-block j_btn_login">登录</button>
+			<div class="form-group" style="margin-top: 10px;">
+			    <label class="pull-left text-muted"><input type="checkbox" class="j_remenber_psw"> 记住密码</label>
+			    <label class="pull-right text-muted j_to_register">注册账号</label>
+			</div>	
+      </div>
+    </div>
+  </div>
+</div>
+<!-- 注册模态框（Modal） -->
+
+<div class="modal fade" id="modal_register" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content" style="width:300px;height: 280px; margin:200px auto;">
+      <div class="modal-header">
+        <img src="./img/logo.jpg" class="center-block">
+		<span class="modal_close"  data-dismiss="modal" aria-label="Close" style="position: absolute;right: 10px;top:10px;cursor: pointer;font-size: 20px;">×</span>
+      </div>
+      <div class="modal-body">
+        <div class="form-group">
+			<div class="input-group">
+			<span class="input-group-addon glyphicon glyphicon-envelope"></span>
+			<input type="text" class="form-control j_r_phone" placeholder="电话号码" value="">
+			</div>
+		</div>
+		<div class="form-group">
+			<div class="input-group">
+			<span class="input-group-addon glyphicon glyphicon-user"></span>
+			<input type="text" class="form-control j_r_name" placeholder="昵称" value="">
+			</div>
+		</div>
+		<div class="form-group">
+			<div class="input-group">
+			<span class="input-group-addon glyphicon glyphicon-lock"></span>
+			<input type="password" class="form-control j_r_password" placeholder="密码" value="">
+			</div>
+		</div>
+		<button type="button" class="btn btn-warning btn-lg btn-block j_btn_register">注册</button>	
+      </div>
+    </div>
+  </div>
+</div>
+</body>
+<script type="text/javascript" src="./js/lib/jquery.js"></script>
+<script type="text/javascript" src="./js/lib/bootstrap.js"></script>
+<script type="text/javascript" src="./js/lib/sea.js"></script>
+<script type="text/javascript">
+seajs.config({
+    base:'./js'
+})
+seajs.use(['main'],function(ex1){
+    ex1.init();
+});
+	//$('#modal_login').modal('show');
+	//$('#modal_register').modal('show');
+</script>
+</html>

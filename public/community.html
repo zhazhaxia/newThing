@@ -1,0 +1,265 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+	<title>new thing</title>
+	<meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1,user-scalable=0">
+    <meta name="format-detection" content="telephone=no">
+    <meta http-equiv="Content-Language" content="zh-cn">
+    <meta http-equiv="Access-Control-Allow-Origin" content="*">
+	<link rel="stylesheet" type="text/css" href="./css/bootstrap.css">
+	<link rel="stylesheet" type="text/css" href="./css/index.css">
+<style type="text/css">
+.com-ul{margin-top: 10px;}
+.com-ul a{color: #aaa;}
+.com-ul a:hover{color:#fa8;text-decoration: none;}
+.com-ul li{margin-left: 10px;}
+.com-select{color: #fa8 !important;}
+.com-content .com-via{margin-top: 5px;font-size: 10px;color: #aaa;}
+.com-content .com-user{margin-right: 20px;}
+.com-detail{margin-top: 10px;}
+
+.a-page{margin-left: 30px;margin-top: 10px;}
+.a-page button{width:30px;height: 30px;background: #ddd;}
+.btn-active{background: rgb(254,219,89) !important;}
+</style>
+</head>
+<body>
+<div class="container header">
+	<div class="row">
+		<div class="col-sm-4"><img class="img-thumbnail"  style="border:0;" src="./img/logo.jpg"></img></div>	
+		<div class="col-sm-1 header-block" ></div>	
+		<!-- <div class="col-sm-2 pull-right header-right"><img class="img-thumbnail pull-right dropmenu" src="./img/dropmenu.png" style="border:0;"></img><p class="login-style pull-right">login</p></div> -->
+
+		<div class="col-sm-2 pull-right dropdown">
+			<span style="line-height: 37px;cursor: pointer;" class="j_login j_h_name">login</span>
+		   <span type="button" class="btn dropdown-toggle pull-right btn-lg" id="dropdownMenu1" 
+		      data-toggle="dropdown">
+		      <span class="glyphicon glyphicon-th-list"></span>
+		   </span>
+		   	<ul class="dropdown-menu my-menu" role="menu" aria-labelledby="dropdownMenu1 " style="min-width: 120px;">
+		      <li role="presentation">
+		         <a role="menuitem" tabindex="-1" href="./homepage.html">我的主页<span style="margin-left: 10px;" class="glyphicon glyphicon-user"></span></a>
+		      </li>
+		      <li role="presentation">
+		         <a role="menuitem" tabindex="-1" href="./message.html">我的消息<span style="margin-left: 10px;" class="glyphicon glyphicon-bell"></span></a></a>
+		      </li>
+		      <li role="presentation">
+		         <a role="menuitem" tabindex="-1" href="./attend.html">我的参与<span style="margin-left: 10px;" class="glyphicon glyphicon-heart"></span></a></a>
+		      </li>
+		      <li role="presentation">
+		         <a role="menuitem" tabindex="-1" href="./launch.html">我的发起<span style="margin-left: 10px;" class="glyphicon glyphicon-bookmark"></span></a></a>
+		      </li>
+		      <li role="presentation">
+		         <a role="menuitem" tabindex="-1" href="#">退出登录<span style="margin-left: 10px;" class="glyphicon glyphicon-log-out"></span></a></a>
+		      </li>
+		   </ul>
+		</div>
+	</div>
+</div>
+<div class="container nav">
+	<ul class="list-inline nav-ul text-center">
+		<li><a href="./index.html">首页</a></li>
+		<li><a href="./around.html">周边</a></li>
+		<li><a href="./found.html">发现</a></li>
+		<li class="li-bottom-line"><a href="./community.html">社区</a></li>
+		<li><a href="./about.html">关于</a></li>
+	</ul>
+</div>
+
+
+
+<div class="container">
+	<div class="row">
+		<div class="col-sm-6" >
+		   <ul class="list-inline com-ul" style="min-width: 50px;">
+		   	  <li>
+		         <a href="#" class="com-select">全部<span style="margin-left: 10px;" class="glyphicon glyphicon-tree-deciduous"></span>
+		      </li>
+		      <li>
+		         <a href="#">衣<span style="margin-left: 10px;" class="glyphicon glyphicon-tree-deciduous"></span>
+		      </li>
+		      <li>
+		         <a href="#">食<span style="margin-left: 10px;" class="glyphicon glyphicon-cutlery"></span></a>
+		      </li>
+		      <li>
+		         <a href="#">住<span style="margin-left: 10px;" class="glyphicon glyphicon-home"></span></a>
+		      </li>
+		      <li>
+		         <a href="#">行<span style="margin-left: 10px;" class="glyphicon glyphicon-plane"></span></a>
+		      </li>
+		   </ul>
+		</div>
+
+		<div class="pull-right col-sm-1">
+			<span style="background:rgb(254,222,89);color: #fff;width: 70px;height: 30px;line-height: 30px;display: block; margin: 5px 0 0 -10px;cursor: pointer;" class="text-center j_btn_posted">发帖</span>
+		</div> 
+	</div>
+
+	<div class="row j_co">
+		
+		<div class="col-sm-12 com-detail">
+			<!-- <div class="col-sm-1"><img class="img-rounded" src="./img/community/1.jpg" width="50"></div>
+			<div class="col-sm-11 com-content">
+				<span style="color: #fa9;margin-right: 10px;">[<span>衣</span>|分享]</span><span class="com-title">号外号外！白云山好好玩！</span>
+				<br/>
+				<span class="com-via">
+					<span class="com-user">渣渣夏</span>
+					活动:<span class="com-reply">28</span>
+					<span class="pull-right com-time">6天前发布</span>
+				</span>
+			</div> -->
+		</div>
+		
+	</div>
+
+	<!--
+	<div class="row">
+		<div class="row a-page">
+			<button type="button" class="btn btn-active">1</button>
+			<button type="button" class="btn">2</button>
+			<button type="button" class="btn">3</button>
+			<button type="button" class="btn">4</button>
+			<button type="button" class="btn">5</button>
+			<button type="button" class="btn">6</button>
+		</div>
+	</div>
+	-->
+</div>
+
+
+
+
+<div class="modal fade" id="modal_posted" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content" style="width:600px;height: 450px; margin:100px auto;">
+      <div class="modal-header">
+        <img src="./img/logo.jpg" class="center-block">
+		<span class="modal_close"  data-dismiss="modal" aria-label="Close" style="position: absolute;right: 10px;top:10px;cursor: pointer;font-size: 20px;">×</span>
+      </div>
+      <div class="modal-body">
+      	<form class="form-horizontal">
+			<div class="form-group">
+				<label for="inputEmail3" class="col-sm-2 control-label">帖子标题</label>
+				<div class="col-sm-5">
+				  <input type="text" class="form-control j_a_title" value="" id="inputEmail3" placeholder="标题">
+				</div>
+			</div>
+			<div class="form-group">
+				<label for="inputEmail3" class="col-sm-2 control-label">帖子类型</label>
+				<div class="col-sm-5">
+				    <select class="form-control j_a_type">
+					  <option>衣</option>
+					  <option>食</option>
+					  <option>住</option>
+					  <option selected="1">行</option>
+					</select>
+				</div>
+			</div>
+			<div class="form-group">
+			    <label for="inputEmail3" class="col-sm-2 control-label">内容</label>
+			    <div class="col-sm-10">
+			      <textarea style="width: 400px;height: 200px;" class=" j_a_content">
+			      	
+			      </textarea>
+			    </div>
+			</div>
+			<div class="form-group">
+			    <label for="inputEmail3" class="col-sm-2 control-label">
+			    <span class="btn  btn-warning j_a_public">发帖</span></label>
+			 </div>
+		</form>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+
+
+
+<div class="container footer">
+	<div class="row">
+		<img src="./img/footer.jpg" width="100%">
+	</div>
+</div>
+
+<!-- 登录模态框（Modal） -->
+<div class="modal fade" id="modal_login" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content" style="width:300px;height: 280px; margin:200px auto;">
+      <div class="modal-header">
+        <img src="./img/logo.jpg" class="center-block">
+		<span class="modal_close"  data-dismiss="modal" aria-label="Close" style="position: absolute;right: 10px;top:10px;cursor: pointer;font-size: 20px;">×</span>
+      </div>
+      <div class="modal-body">
+        	<div class="form-group">
+			  <div class="input-group">
+			  <span class="input-group-addon glyphicon glyphicon-user"></span>
+			    <input type="text" class="form-control j_l_phone" placeholder="电话号码">
+			  </div>
+			</div>
+			<div class="form-group">
+			  <div class="input-group">
+			  <span class="input-group-addon glyphicon glyphicon-lock"></span>
+			    <input type="password" class="form-control j_l_password" placeholder="密码">
+			  </div>
+			</div>
+			<button type="button" class="btn btn-warning btn-lg btn-block j_btn_login">登录</button>
+			<div class="form-group" style="margin-top: 10px;">
+			    <label class="pull-left text-muted"><input type="checkbox" class="j_remenber_psw"> 记住密码</label>
+			    <label class="pull-right text-muted j_to_register">注册账号</label>
+			</div>	
+      </div>
+    </div>
+  </div>
+</div>
+<!-- 注册模态框（Modal） -->
+
+<div class="modal fade" id="modal_register" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content" style="width:300px;height: 280px; margin:200px auto;">
+      <div class="modal-header">
+        <img src="./img/logo.jpg" class="center-block">
+		<span class="modal_close"  data-dismiss="modal" aria-label="Close" style="position: absolute;right: 10px;top:10px;cursor: pointer;font-size: 20px;">×</span>
+      </div>
+      <div class="modal-body">
+        <div class="form-group">
+			<div class="input-group">
+			<span class="input-group-addon glyphicon glyphicon-envelope"></span>
+			<input type="text" class="form-control j_r_phone" placeholder="电话号码" value="">
+			</div>
+		</div>
+		<div class="form-group">
+			<div class="input-group">
+			<span class="input-group-addon glyphicon glyphicon-user"></span>
+			<input type="text" class="form-control j_r_name" placeholder="昵称" value="">
+			</div>
+		</div>
+		<div class="form-group">
+			<div class="input-group">
+			<span class="input-group-addon glyphicon glyphicon-lock"></span>
+			<input type="password" class="form-control j_r_password" placeholder="密码" value="">
+			</div>
+		</div>
+		<button type="button" class="btn btn-warning btn-lg btn-block j_btn_register">注册</button>	
+      </div>
+    </div>
+  </div>
+</div>
+</body>
+<script type="text/javascript" src="./js/lib/jquery.js"></script>
+<script type="text/javascript" src="./js/lib/bootstrap.js"></script>
+<script type="text/javascript" src="./js/lib/sea.js"></script>
+<script type="text/javascript">
+seajs.config({
+    base:'./js'
+})
+seajs.use(['main','community'],function(ex1,ex2){
+    ex1.init();
+    ex2.init();
+});
+	//$('#modal_login').modal('show');
+	//$('#modal_register').modal('show');
+</script>
+</html>
