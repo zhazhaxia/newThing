@@ -7,3 +7,4 @@ new thing web site,classmate's thesis
 安装依赖模块
 
   npm install
+模块在配制文件
